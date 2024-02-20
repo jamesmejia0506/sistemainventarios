@@ -4,10 +4,10 @@ class Conexion{
 
     protected $db;
     private $driver = "mysql";
-    private $host = "localhost";
-    private $bd = "inventarios";
-    private $usuario = "root";
-    private $contrasena = "";
+    private $host = "bvjhqrutzgjotjkugfyh-mysql.services.clever-cloud.com";
+    private $bd = "bvjhqrutzgjotjkugfyh";
+    private $usuario = "uirdvh3qsqqh4ch6";
+    private $contrasena = "3pRW5ysfxOe6bl9OSbRP";
 
     public function __construct(){
         try{//el this significa que estamos trabajando sobre el objeto actual que tenemos en nuestra clase
